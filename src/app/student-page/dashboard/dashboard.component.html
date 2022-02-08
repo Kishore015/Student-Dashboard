@@ -1,9 +1,9 @@
-<main class="py-2 py-md-5" style="background-color: rgba(211, 123, 107, 0.692); color: rgb(5, 6, 7);">
+<main class="py-2 py-md-5" style="background-color: rgba(216, 198, 194, 0.692); color: rgb(5, 6, 7);">
     <div class="container">
          <!-- Student Data -->
     <div class="student-dashboard">
         <div class="row">
-            <div class="col-12 col-md-4 col-lg-2 py-4 py-md-0">
+            <div class="col-12 col-md-4 col-lg-3 py-4 py-md-0">
                 <div class="card bg-transparent border-0 mt-5">
                     <div class="">
                         <p>krishna teja</p>
@@ -14,7 +14,7 @@
                 </div>
             </div>
             <!-- Course Completion -->
-            <div class="col-12 col-md-4 col-lg-2 py-4 py-md-0">
+            <div class="col-12 col-md-4 col-lg-3 py-4 py-md-0">
                 <h4>Completion</h4>
                 <div class="card  h-100">
                     <div class="d-flex  justify-content-center align-items-center px-5 pt-5">
@@ -68,7 +68,7 @@
             <!-- End of Assessment -->
 
             <!-- Mock-Interview -->
-            <div class="col-12 col-md-4 col-lg-2 py-4 py-md-0">
+            <div class="col-12 col-md-4 col-lg-3 py-4 py-md-0 mt-5 mt-lg-0">
                 <h4>Mock-Interview</h4>
                 <div class="card  h-100">
                     <div class="d-flex justify-content-center align-items-center px-5 pt-5">
@@ -98,7 +98,7 @@
             <!-- End of Mock-Interview -->
 
             <!-- CGPA -->
-            <div class="col-12 col-md-4 col-lg-1 py-4 py-md-0">
+            <div class="col-12 col-md-4 offset-lg-3 col-lg-3 mt-5 py-md-0">
                 <h4>CGPA</h4>
                 <div class="card  h-100 d-flex justify-content-center align-items-center">
                     <p>3.5</p>
@@ -107,7 +107,7 @@
             <!-- End of CGPA -->
 
             <!-- Companies -->
-            <div class="col-12 col-md-4 col-lg-2 py-4 py-md-0">
+            <div class="col-12 col-md-4 offset-lg-3 col-lg-3 mt-5 py-md-0">
                 <h4>Companies</h4>
                 <div class="card  h-100 d-flex justify-content-center align-items-center">
                     <p>3</p>
@@ -121,43 +121,43 @@
         <h4>Basic Details</h4>
         <div class="row">
                 <div class="col-12 col-md-4">
-                    <div class="d-flex">
+                    <div class="d-flex justify-content-around">
                         <p>10th</p>
                         <p class="ms-3">___________</p>
                     </div>
-                    <div class="d-flex">
+                    <div class="d-flex justify-content-around">
                         <p>12th</p>
                         <p class="ms-3">___________</p>
                     </div>
-                    <div class="d-flex">
+                    <div class="d-flex justify-content-around">
                         <p>Graduation</p>
                         <p class="ms-3">___________</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
-                    <div class="d-flex">
+                    <div class="d-flex justify-content-around">
                         <p>College</p>
                         <p class="ms-3">___________</p>
                     </div>
-                    <div class="d-flex">
+                    <div class="d-flex justify-content-around">
                         <p>Branch</p>
                         <p class="ms-3">___________</p>
                     </div>
-                    <div class="d-flex">
+                    <div class="d-flex justify-content-around">
                         <p>YOP</p>
                         <p class="ms-3">___________</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
-                    <div class="d-flex">
+                    <div class="d-flex justify-content-around">
                         <p>Aggregate</p>
                         <p class="ms-3">___________</p>
                     </div>
-                    <div class="d-flex">
+                    <div class="d-flex justify-content-around">
                         <p>Resume</p>
                         <p class="ms-3">___________</p>
                     </div>
-                    <div class="d-flex">
+                    <div class="d-flex justify-content-around">
                         <p>Photo</p>
                         <p class="ms-3">___________</p>
                     </div>
@@ -207,19 +207,45 @@
             <div class="col-12 col-md-6">
                 <div class="assessment py-4">
                     <h4>Assessment</h4>
-                    <table style="border-collapse: collapse;width: 100%;">
+                    <div class="d-none d-lg-block ">
+                        <table class="border-0" style="border-collapse: collapse;width: 100%;">
+                            <tr class="">
+                                <th>Date</th>
+                                <th>Exam</th>
+                                <th>Aptitude</th>
+                                <th>Technical</th>
+                                <th>Coding</th>
+                                <th>Score</th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>5</td>
+                                <td>6</td>
+                            </tr>
+                        </table>
+                    </div>
+                   
+                    <!-- Medium screen -->
+                    <table class="d-block d-lg-none border-0" style="border-collapse: collapse;">
                         <tr class="">
                             <th>Date</th>
                             <th>Exam</th>
                             <th>Aptitude</th>
-                            <th>Technical</th>
-                            <th>Coding</th>
-                            <th>Score</th>
                         </tr>
                         <tr>
                             <td>1</td>
                             <td>2</td>
                             <td>3</td>
+                        </tr>
+                        <tr>
+                            <th>Technical</th>
+                            <th>Coding</th>
+                            <th>Score</th>
+                        </tr>
+                        <tr>
                             <td>4</td>
                             <td>5</td>
                             <td>6</td>
@@ -230,19 +256,45 @@
             <div class="col-12 col-md-6">
                 <div class="Mock-Interview py-4">
                     <h4>Mock-Interviews</h4>
-                    <table style="border-collapse: collapse;width: 100%;">
+                    <div class="d-none d-lg-block ">
+                        <table class="border-0" style="border-collapse: collapse;">
+                            <tr class="">
+                                <th>Date</th>
+                                <th>Interview</th>
+                                <th>Aptitude</th>
+                                <th>Technical</th>
+                                <th>Coding</th>
+                                <th>Score</th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>5</td>
+                                <td>6</td>
+                            </tr>
+                        </table>
+                    </div>
+                   
+                    <!-- Medium screen -->
+                    <table class="d-block d-lg-none border-0" style="border-collapse: collapse;">
                         <tr class="">
                             <th>Date</th>
                             <th>Interview</th>
                             <th>Aptitude</th>
-                            <th>Technical</th>
-                            <th>Coding</th>
-                            <th>Score</th>
                         </tr>
                         <tr>
                             <td>1</td>
                             <td>2</td>
                             <td>3</td>
+                        </tr>
+                        <tr>
+                            <th>Technical</th>
+                            <th>Coding</th>
+                            <th>Score</th>
+                        </tr>
+                        <tr>
                             <td>4</td>
                             <td>5</td>
                             <td>6</td>
